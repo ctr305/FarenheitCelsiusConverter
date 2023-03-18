@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="input_temperature">Ingresar temperatura en °Farenheit</string>
+    <string name="thermometer_license">\'Thermometer\' by renaissancechambara is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/?ref=openverse.</string>
+    <string name="temperature">Temperatura en °F</string>
+    <string name="convert">Convertir</string>
+    <string name="valid_temperature_error">Por favor ingresa una temperatura válida.</string>
+</resources>

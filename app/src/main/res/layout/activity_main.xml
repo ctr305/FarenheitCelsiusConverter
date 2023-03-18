@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/thermometer_license"
+        app:srcCompat="@drawable/thermometer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="16sp"
+        android:layout_weight="1"
+        android:text="@string/input_temperature"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/edit_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_margin="16sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/temperature"
+        android:singleLine="true"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/temperature_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="26sp"
+        android:layout_margin="16sp"/>
+
+    <Button
+        android:id="@+id/btn_convert"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_margin="16sp"
+        android:layout_weight="1"
+        android:text="@string/convert"
+        android:textSize="16sp" />
+</LinearLayout>
